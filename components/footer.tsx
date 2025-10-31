@@ -116,6 +116,12 @@ export function Footer() {
                 <MailIcon className="h-4 w-4 opacity-60" />
                 <span className="opacity-80">info@bdsletters.nl</span>
               </div>
+              <div className="flex items-center gap-2">
+                <span className="opacity-80">KVK: 96080140</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="opacity-80">open: 8.30 tot 18.00 uur</span>
+              </div>
             </div>
           </div>
         </div>
