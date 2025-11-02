@@ -120,7 +120,8 @@ export function Footer() {
                 <span className="opacity-80">KVK: 96080140</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="opacity-80">open: 8.30 tot 18.00 uur</span>
+                <span className="opacity-80">Ma t/m Vri 08:30 tot 18:00
+                  Za 10:00 tot 14:00</span>
               </div>
             </div>
           </div>
