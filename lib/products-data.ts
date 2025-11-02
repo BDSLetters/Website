@@ -62,6 +62,7 @@ export const allProducts: Product[] = [
     fullDescription:
       "De luxe acrylaatletter 1 is een direct verlichte acrylaatletter en wordt standaard geleverd in 30mm. De letter wordt bewerkt tot een uitgediepte letter, die wordt voorzien van LED-verlichting. De achterzijde en de zijkanten van de letter worden gespoten in een RAL-kleur naar wens. Ook wordt de letter geleverd met een 1:1 montagetekening en draadeinden.",
     features: [
+      "Ledsverlichting varierend van koel tot warmlicht",
       "De letter is verkrijgbaar in elke afmeting",
       "Direct verlichte LED-verlichting",
       "Hoogwaardige acrylaatafwerking",
@@ -87,6 +88,7 @@ export const allProducts: Product[] = [
     fullDescription:
       "De luxe acrylaatletter 2 is een indirect verlichte acrylaatletter en wordt standaard geleverd in 30mm. De letter wordt bewerkt tot een uitgediepte letter, die wordt voorzien van LED-verlichting. De voorzijde en de zijkanten van de letter worden gespoten in een RAL-kleur naar wens. Ook wordt de letter geleverd met een 1:1 montagetekening en draadeinden.",
     features: [
+      "Ledsverlichting varierend van koel tot warmlicht",
       "De letter is verkrijgbaar in elke afmeting",
       "Indirect verlichte LED-verlichting",
       "Hoogwaardige acrylaatafwerking",
@@ -112,6 +114,7 @@ export const allProducts: Product[] = [
     fullDescription:
       "De luxe acrylaatletter 3 is een aan achter- en zijkanten verlichte acrylaatletter en wordt standaard geleverd in 30mm. De letter wordt bewerkt tot een uitgediepte letter, die wordt voorzien van LED-verlichting. De voorkant van de letter wordt gespoten in een RAL-kleur naar wens. Ook wordt de letter geleverd met een 1:1 montagetekening en draadeinden.",
     features: [
+      "Ledsverlichting varierend van koel tot warmlicht",
       "De letter is verkrijgbaar in elke afmeting",
       "Achter- en zijkanten verlichte LED-verlichting",
       "Hoogwaardige acrylaatafwerking",
@@ -137,6 +140,7 @@ export const allProducts: Product[] = [
     fullDescription:
       "De luxe acrylaatletter 4 is een aan voor- en zijkanten verlichte acrylaatletter en wordt standaard geleverd in 30mm. De letter wordt bewerkt tot een uitgediepte letter, die wordt voorzien van LED-verlichting. De achterkant van de letter wordt gespoten. Ook wordt de letter geleverd met een 1:1 montagetekening en draadeinden.",
     features: [
+      "Ledsverlichting varierend van koel tot warmlicht",
       "De letter is verkrijgbaar in elke afmeting",
       "Voor- en zijkanten verlichte LED-verlichting",
       "Hoogwaardige acrylaatafwerking",
@@ -162,6 +166,7 @@ export const allProducts: Product[] = [
     fullDescription:
       "De luxe acrylaatletter 5 is een vanaf het midden verlichte acrylaatletter en wordt standaard geleverd in 30mm. De letter wordt bewerkt tot een uitgediepte letter, die wordt voorzien van LED-verlichting. De achter- en voorkant van de letter wordt gespoten in een RAL-kleur naar wens. Ook wordt de letter geleverd met een 1:1 montagetekening en draadeinden.",
     features: [
+      "Ledsverlichting varierend van koel tot warmlicht",
       "Vanaf het midden verlichte LED-verlichting",
       "Hoogwaardige acrylaatafwerking",
       "Duurzame constructie",
@@ -186,6 +191,7 @@ export const allProducts: Product[] = [
     fullDescription:
       "De luxe acrylaatletter 6 is een direct- en indirect, of aan de zijkanten verlichte 3D-acrylaatletter, die standaard wordt geleverd in 30mm. De voor- zij- en achterkant van de letter worden gespoten in een RAL-kleur naar wens. Ook wordt de letter geleverd met een 1:1 montagetekening en draadeinden.",
     features: [
+      "Ledsverlichting varierend van koel tot warmlicht",
       "Direct/indirect/zijkanten verlichte LED-verlichting",
       "Hoogwaardige acrylaatafwerking",
       "Duurzame constructie",
