@@ -54,6 +54,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/categories/rvs" className="opacity-80 hover:opacity-100 transition-opacity">
+                  RVS
+                </Link>
+              </li>
+              <li>
                 <Link href="/categories/doosletterframes" className="opacity-80 hover:opacity-100 transition-opacity">
                   Doosletterframes
                 </Link>
