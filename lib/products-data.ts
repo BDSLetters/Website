@@ -206,6 +206,33 @@ export const allProducts: Product[] = [
       garantie: "2 jaar",
     },
   },
+  // RVS
+  // {
+  //   id: "rvs",
+  //   name: "Profiel 1 Doosletter",
+  //   description: "Onverlichte aluminium doosletter met forex bodem",
+  //   image: "/products/profiel-1.png",
+  //   category: "Doosletters",
+  //   price: "Op aanvraag",
+  //   fullDescription:
+  //     "Profiel 1 is een onverlichte aluminium doosletter met forex in de bodem. De letter kan worden gecoat in elke RAL-kleur.",
+  //   features: [
+  //     "Onverlichte aluminium constructie",
+  //     "Forex in de bodem",
+  //     "Verkrijgbaar in elke RAL-kleur",
+  //     "Duurzame constructie",
+  //     "Geschikt voor binnen- en buitengebruik",
+  //   ],
+  //   technicalSpecs: {
+  //     materiaal: "Aluminium met forex bodem",
+  //     afwerking: "RAL-kleur naar wens",
+  //     diepte: "40-60mm",
+  //     montage: "Wandmontage met verborgen bevestiging",
+  //     garantie: "2 jaar",
+  //   },
+  // },
+  
+  
   // Doosletters
   {
     id: "profiel-1",
