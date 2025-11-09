@@ -23,6 +23,7 @@ export function Header() {
     { label: "Home", href: "/" },
     { label: "Projecten", href: "/projecten" },
     { label: "Over Ons", href: "/over-ons" },
+    { label: "RVS Letters", href: "/rvs" },
     { label: "Montage", href: "/montage" },
   ]
 
