@@ -28,6 +28,7 @@ export function Header() {
   const productCategories = [
     { label: "Luxe Acrylaatletters", href: "/categories/luxe-acrylaatletters" },
     { label: "Doosletters", href: "/categories/doosletters" },
+    { label: "RVS", href: "/categories/rvs" },
     { label: "Doosletterframes", href: "/categories/doosletterframes" },
     { label: "LED - Neon Signs", href: "/categories/led-neon" },
     { label: "Speciale Lichtbakken", href: "/categories/lichtbakken" },
