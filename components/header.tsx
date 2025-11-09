@@ -23,6 +23,7 @@ export function Header() {
     { label: "Home", href: "/" },
     { label: "Projecten", href: "/projecten" },
     { label: "Over Ons", href: "/over-ons" },
+    { label: "Montage", href: "/montage" },
   ]
 
   const productCategories = [
