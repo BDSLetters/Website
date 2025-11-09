@@ -100,6 +100,14 @@ export function Footer() {
               </li>
               <li>
                 <a
+                  href="/montage"
+                  className="text-primary-foreground opacity-80 hover:opacity-100 transition-opacity"
+                >
+                  Montage
+                </a>
+              </li>
+              <li>
+                <a
                   href="/garantievoorwaarden"
                   className="text-primary-foreground opacity-80 hover:opacity-100 transition-opacity"
                 >
