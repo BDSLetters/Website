@@ -33,6 +33,20 @@ export function Footer() {
                   <MessageCircleIcon className="h-4 w-4" />
                 </a>
               </Button>
+              <Button variant="ghost" size="sm" className="p-2 hover:bg-accent/20" asChild>
+                <a
+                  href="https://www.linkedin.com/in/berat-deniz-salt-1161433a1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Contact via LinkedIn"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg"
+                    className="h-4 w-4 opacity-80 hover:opacity-100"
+                    alt=""
+                  />
+                </a>
+              </Button>
             </div>
           </div>
 
