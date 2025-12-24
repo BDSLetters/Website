@@ -30,7 +30,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   aria-label="Contact via WhatsApp"
                 >
-                  <MessageCircleIcon className="h-4 w-4" />
+                  <MessageCircleIcon className="h-8 w-8" />
                 </a>
               </Button>
               <Button variant="ghost" size="lg" className="p-2 hover:bg-accent/20" asChild>
@@ -45,6 +45,7 @@ export function Footer() {
                     className="h-4 w-4 opacity-80 hover:opacity-100"
                     alt=""
                   />
+                  <MessageCircleIcon className="h-8 w-8" />
                 </a>
               </Button>
             </div>
