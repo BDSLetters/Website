@@ -23,7 +23,7 @@ export function Footer() {
               bij ons voorop.
             </p>
             <div className="flex space-x-4">
-              <Button variant="ghost" size="sm" className="p-2 hover:bg-accent/20" asChild>
+              <Button variant="ghost" size="lg" className="p-2 hover:bg-accent/20" asChild>
                 <a
                   href="https://api.whatsapp.com/send/?phone=310625505222&text=Hallo,%20ik%20heb%20een%20vraag"
                   target="_blank"
@@ -33,7 +33,7 @@ export function Footer() {
                   <MessageCircleIcon className="h-4 w-4" />
                 </a>
               </Button>
-              <Button variant="ghost" size="sm" className="p-2 hover:bg-accent/20" asChild>
+              <Button variant="ghost" size="lg" className="p-2 hover:bg-accent/20" asChild>
                 <a
                   href="https://www.linkedin.com/in/berat-deniz-salt-1161433a1"
                   target="_blank"
