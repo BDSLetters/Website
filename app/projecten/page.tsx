@@ -94,6 +94,7 @@ export default function ProjectenPage() {
               Neem contact met ons op en ontdek wat BDS Letters voor u kan betekenen.
             </p>
             
+            <a
               href="https://api.whatsapp.com/send/?phone=310625505222"
               target="_blank"
               rel="noopener noreferrer"
