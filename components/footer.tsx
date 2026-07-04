@@ -159,6 +159,8 @@ export function Footer() {
               </div>
                <div className="flex items-center gap-2">
                 <span className="opacity-80">
+                  Openingstijden
+                  <br />
                   Ma t/m Vri 08:30 tot 18:00 uur
                   <br />
                   Za 10:00 tot 14:00 uur
