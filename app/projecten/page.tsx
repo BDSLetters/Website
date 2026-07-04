@@ -9,157 +9,30 @@ export default function ProjectenPage() {
   const [selectedMedia, setSelectedMedia] = useState<{ type: string; src: string } | null>(null)
 
   const projects = [
-    {
-      id: 7,
-      type: "video",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VID-20251024-WA0007-EBGouR0dVt06uQGfonSA864SozAhLk.mp4",
-      span: "",
-    },
-    {
-      id: 8,
-      type: "video",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VID-20251024-WA0006-2W2jDl0HYBRT0IgQSGhnaOTSVbdzvV.mp4",
-      span: "",
-    },
-    {
-      id: 9,
-      type: "video",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VID-20251024-WA0012-Mk1Kr5YLbfjYKqQSsTf5WuXnrSFBIA.mp4",
-      span: "md:col-span-2",
-    },
-    {
-      id: 15,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2014.45.42_50a1deaf-BmnhqXJ1lBXBuKYixnwMu0ck0V4mOn.jpg",
-      span: "md:col-span-2",
-    },
-    {
-      id: 16,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2014.45.42_113cd7ac-GTgyC0aLI0PabRQKO5PpBypDlMPYGr.jpg",
-      span: "md:row-span-2",
-    },
-    {
-      id: 17,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2014.45.42_5eb5d548-NBPmPgCYjAEPyeLDsYOp7VVClkyaPK.jpg",
-      span: "",
-    },
-    {
-      id: 19,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2014.45.42_e3dac349-ouocA1JaaXEpO3R0JPMj7DSaDu3mU4.jpg",
-      span: "md:col-span-2",
-    },
-    {
-      id: 22,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0059-qOc8obDcIVfKjgO1wGCQYmWOmcK05h.jpg",
-      span: "md:col-span-2",
-    },
-
-    {
-      id: 27,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0058-L0ENIkYvOL86tJ8HZNfL87Kuh6nP7F.jpg",
-      span: "md:row-span-2",
-    },
-    {
-      id: 28,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0060-CkOzdPonnv8bknpx213wLcY7e0NghL.jpg",
-      span: "",
-    },
-    {
-      id: 29,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0062-eYh1rkipjWCCpUiX1RtM1COWFrUU6B.jpg",
-      span: "",
-    },
-    {
-      id: 30,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0061-dwcYmMz826ISSxXqYndAPCe4la7oUh.jpg",
-      span: "md:col-span-2",
-    },
-    {
-      id: 33,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0046-5aCeBcvjXlAbvnBTeRg6szELhTolLw.jpg",
-      span: "",
-    },
-    {
-      id: 35,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0048-e2iUVqLl7o7cSbfD2xv2WqPrAAaWoe.jpg",
-      span: "",
-    },
-    {
-      id: 38,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251024-WA0047-T5KcJFJNI9yPRJwEisIGgKwUziF1t1.jpg",
-      span: "md:row-span-2",
-    },
-    {
-      id: 42,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251027-WA0010-GVh1RK1oV9vreGyAjkkMwxNsRIAyPC.jpg",
-      span: "md:col-span-2",
-    },
-    {
-      id: 43,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-27%20at%2020.36.22_c74da5fd-hmRGn7W9h1EYectZUxyIk1d76SWspy.jpg",
-      span: "md:row-span-2",
-    },
-    {
-      id: 44,
-      type: "video",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-10-27%20at%2020.45.04_f80773aa-J3KvQuRjbHYEpRRGUYM4eF2iPU2HdO.mp4",
-      span: "",
-    },
-    {
-      id: 45,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251027-WA0013-tLSdcm084CO9NizLgPIOhBPVCtBhrE.jpg",
-      span: "md:col-span-2",
-    },
-    {
-      id: 46,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251027-WA0011-HWvny6cnOq4k8WW3q24EWssn9Pwea3.jpg",
-      span: "",
-    },
-    {
-      id: 47,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251027-WA0008-qgdxiruDP5uaadbHCDu4SHoUu9DhWR.jpg",
-      span: "md:row-span-2",
-    },
-    {
-      id: 48,
-      type: "video",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-10-27%20at%2020.42.34_9d669b17-JJEQzrnq3OubMrUefphnj6UP6nyytk.mp4",
-      span: "md:col-span-2",
-    },
-    {
-      id: 49,
-      type: "image",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20251027-WA0012-45RLlHgBZjdWiaAvTVA3UtxOxUFzqI.jpg",
-      span: "",
-    },
-    {
-      id: 50,
-      type: "video",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-10-29%20at%2020.27.00_41e52b8e-SX48uUm89XCsZVvn1fhXdXK99PSFW4.mp4",
-      span: "",
-    },
-    {
-      id: 51,
-      type: "video",
-      src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Video%202025-10-29%20at%2020.27.01_2f7903f6-EPS6h8dA5AMfmvSXcCaO0wuVRrlCIR.mp4",
-      span: "md:col-span-2",
-    },
+    { id: 1, type: "image", src: "/media/project-01.jpg", span: "" },
+    { id: 2, type: "video", src: "/media/project-02.mov", span: "" },
+    { id: 3, type: "image", src: "/media/project-03.jpg", span: "md:col-span-2" },
+    { id: 4, type: "image", src: "/media/project-04.jpg", span: "md:col-span-2" },
+    { id: 5, type: "image", src: "/media/project-05.jpg", span: "md:row-span-2" },
+    { id: 6, type: "image", src: "/media/project-06.jpg", span: "" },
+    { id: 7, type: "image", src: "/media/project-07.jpg", span: "md:col-span-2" },
+    { id: 8, type: "video", src: "/media/project-08.mp4", span: "md:col-span-2" },
+    { id: 9, type: "image", src: "/media/project-09.jpg", span: "md:row-span-2" },
+    { id: 10, type: "image", src: "/media/project-10.jpg", span: "" },
+    { id: 11, type: "image", src: "/media/project-11.jpg", span: "" },
+    { id: 12, type: "image", src: "/media/project-12.jpg", span: "md:col-span-2" },
+    { id: 13, type: "image", src: "/media/project-13.jpg", span: "" },
+    { id: 14, type: "image", src: "/media/project-14.jpg", span: "" },
+    { id: 15, type: "image", src: "/media/project-15.jpg", span: "md:row-span-2" },
+    { id: 16, type: "image", src: "/media/project-16.jpg", span: "md:col-span-2" },
+    { id: 17, type: "image", src: "/media/project-17.jpg", span: "md:row-span-2" },
+    { id: 18, type: "image", src: "/media/project-18.jpg", span: "" },
+    { id: 19, type: "image", src: "/media/project-19.jpg", span: "md:col-span-2" },
+    { id: 20, type: "image", src: "/media/project-20.jpg", span: "" },
+    { id: 21, type: "image", src: "/media/project-21.jpg", span: "md:row-span-2" },
+    { id: 22, type: "image", src: "/media/project-22.jpg", span: "md:col-span-2" },
+    { id: 23, type: "image", src: "/media/project-23.png", span: "" },
+    { id: 24, type: "image", src: "/media/project-24.jpg", span: "" },
   ]
 
   return (
@@ -220,7 +93,7 @@ export default function ProjectenPage() {
             <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
               Neem contact met ons op en ontdek wat BDS Letters voor u kan betekenen.
             </p>
-            <a
+            
               href="https://api.whatsapp.com/send/?phone=310625505222"
               target="_blank"
               rel="noopener noreferrer"
