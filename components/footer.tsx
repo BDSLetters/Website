@@ -157,9 +157,12 @@ export function Footer() {
                 <span className="opacity-80">BTW-registratienummer: NL005187479826</span>
                 <span className="opacity-80">BIC/SWIFT-code: INGBNL2A</span>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="opacity-80">Ma t/m Vri 08:30 tot 18:00
-                  Za 10:00 tot 14:00
+               <div className="flex items-center gap-2">
+                <span className="opacity-80">
+                  Ma t/m Vri 08:30 tot 18:00 uur
+                  <br />
+                  Za 10:00 tot 14:00 uur
+                  <br />
                   Zondag Gesloten
                 </span>
               </div>
